@@ -1,0 +1,20 @@
+{
+  "name": "nice-net",
+  "version": "1.0.0",
+  "description": "Simple static server for the Nice Net project",
+  "main": "Nice Net/server.js",
+  "scripts": {
+    "start": "node \"Nice Net/server.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danny20111985/Nice-net.git"
+  },
+  "keywords": ["node","static","server","nice-net"],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Danny20111985/Nice-net/issues"
+  },
+  "homepage": "https://github.com/Danny20111985/Nice-net#readme"
+}

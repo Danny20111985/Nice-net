@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.log {
+    padding: 40px;
+    font-size: 18px;
+    background-color: rgb(186, 255, 255);
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.error { color: red; }
+.success { color: green; }
+
+.post {
+    background:#e0ffff;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    text-align:left;
+}
+
+.comment {
+    background:#ffffff;
+    padding:5px;
+    margin-top:5px;
+    border-radius:5px;
+}

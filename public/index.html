@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Nice Net</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN -->
+<div class="log" id="loginBox">
+    <h2>Please Login</h2>
+
+    <input type="text" id="username" placeholder="Username (min. 3 Zeichen)">
+    <input type="password" id="password" placeholder="Password">
+
+    <button onclick="login()">Login</button>
+    <p id="message"></p>
+</div>
+
+<!-- DASHBOARD -->
+<div class="log" id="dashboard" style="display:none;">
+    <h2>Dashboard</h2>
+
+    <div id="postArea">
+        <textarea id="newPost" placeholder="Was möchtest du posten?"></textarea>
+        <button onclick="createPost()">Posten</button>
+    </div>
+
+    <div id="postsList"></div>
+
+    <button onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
