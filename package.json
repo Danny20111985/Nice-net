@@ -10,11 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/Danny20111985/Nice-net.git"
   },
-  "keywords": ["node","static","server","nice-net"],
+  "keywords": [
+    "node",
+    "static",
+    "server",
+    "nice-net"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Danny20111985/Nice-net/issues"
   },
-  "homepage": "https://github.com/Danny20111985/Nice-net#readme"
+  "homepage": "https://github.com/Danny20111985/Nice-net#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
 }

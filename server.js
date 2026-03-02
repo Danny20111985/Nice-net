@@ -62,7 +62,7 @@ app.post("/api/posts/:id/comments", (req, res) => {
 app.use(express.static(path.join(__dirname, "public")));
 
 // Fallback → immer index.html
-app.get("*", (req, res) => {
+app.use((req, res) => {
     res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
